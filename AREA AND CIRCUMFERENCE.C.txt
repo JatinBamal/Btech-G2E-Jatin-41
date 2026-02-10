@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float radius = 7.0;
+    float area, circumference;
+    float pi = 3.14;
+
+    area = pi * radius * radius;
+    circumference = 2 * pi * radius;
+
+    printf("Radius = %.2f\n", radius);
+    printf("Area of Circle = %.2f\n", area);
+    printf("Circumference of Circle = %.2f\n", circumference);
+
+    return 0;
+}
+

@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int maths = 78;
+    int physics = 85;
+    int chemistry = 69;
+    int biology = 90;
+    int english = 88;
+
+    int sum;
+    float percentage;
+
+    sum = maths + physics + chemistry + biology + english;
+    percentage = (sum / 500.0) * 100;
+
+    printf("85")
+    scanf("%d", physics)
+
+    printf("69")
+    scanf("%d", chemistry)
+
+    printf("78")
+    scanf("%d", maths)
+
+    printf("90")
+    scanf("%d", biology)
+
+    printf("88")
+    scanf("%d", english)
+
+    return 0;
+}
