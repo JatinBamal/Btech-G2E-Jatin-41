@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int i, n;
+
+    // Prompt user for input
+    printf("Enter the number of natural numbers to print: ");
+    scanf("%d", &n);
+
+    printf("The first %d natural numbers are: ", n);
+
+    // Loop from 1 to n
+    for (i = 1; i <= n; i++) {
+        printf("%d ", i);
+    }
+
+    printf("\\n"); // Print a newline at the end for formatting
+    return 0;
+}
