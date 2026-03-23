@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int isLeapYear(int year) {
-    if (year % 4 != 0) return 0;           // Not divisible by 4
-    if (year % 100 != 0) return 1;         // Div by 4, not 100 → leap
-    return (year % 400 == 0);              // Div by 400 → leap[web:7]
+    if (year % 4 != 0) return 0;         
+    if (year % 100 != 0) return 1;       
+    return (year % 400 == 0);           
 }
 
 int main() {
