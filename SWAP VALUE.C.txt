@@ -9,7 +9,6 @@ int main() {
     printf("Enter value of b: ");
     scanf("%d", &b);
 
-    // Swapping using third variable
     temp = a;
     a = b;
     b = temp;
