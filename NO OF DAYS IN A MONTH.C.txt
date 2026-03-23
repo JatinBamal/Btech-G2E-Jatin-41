@@ -28,7 +28,6 @@ int main() {
             break;
 
         case 2:
-            // Check for leap year
             if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
                 printf("Number of days: 29");
             else
