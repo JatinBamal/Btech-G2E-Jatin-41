@@ -3,27 +3,24 @@
 void main()
 {
     int i, n, odd_sum = 0, even_sum = 0;
-
-    // Prompt user for input
     printf("Enter the value of n: ");
     scanf("%d", &n);
 
-    // Loop from 1 to n
     for (i = 1; i <= n; i++)
     {
-        // Check if the number is even
+    
         if (i % 2 == 0)
         {
             even_sum = even_sum + i;
         }
-        // If not even, it is odd
+    
         else
         {
             odd_sum = odd_sum + i;
         }
     }
 
-    // Print the results
+
     printf("Sum of all odd numbers from 1 to %d = %d\n", n, odd_sum);
     printf("Sum of all even numbers from 1 to %d = %d\n", n, even_sum);
 }
